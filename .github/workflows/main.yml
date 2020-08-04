@@ -16,7 +16,7 @@ on:
     - cron: 0 20 * * *
   push:
     tags:
-      - '*'
+      - master
 
 jobs:
 
@@ -96,15 +96,3 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./bin/targets/*/*/
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
